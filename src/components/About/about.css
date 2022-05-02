@@ -1,5 +1,6 @@
 .aboutBackground {
-  background-image: linear-gradient(to left top, #995c0c, #ae550f, #c3491c, #d8372d, #eb1242);
+  border-top: thin solid #e96c0c;
+  background-color: rgb(48, 48, 48);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,8 +8,11 @@
 }
 
 .aboutTitle {
+  margin-top: 1rem;
   font-size: 70px;
-  color: white;
+  background-image: linear-gradient(60deg, #e21143, #ffb03a);
+  background-clip: text;
+  color: transparent;
 }
 
 .aboutText {
@@ -47,6 +51,10 @@
 }
 
 @media (max-width: 425px) {
+  .aboutBackground {
+    height: 750px;
+  }
+
   .aboutTitle {
     font-size: 50px;
     color: white;

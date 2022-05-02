@@ -10,13 +10,13 @@ function NavBar() {
           </a>
         </li>
         <li className="navBarItem">
-          <a className="navBarLink" href="#proyectos">
-            PROYECTOS
+          <a className="navBarLink" href="#habilidades">
+            HABILIDADES
           </a>
         </li>
         <li className="navBarItem">
-          <a className="navBarLink" href="#habilidades">
-            HABILIDADES
+          <a className="navBarLink" href="#proyectos">
+            PROYECTOS
           </a>
         </li>
       </div>

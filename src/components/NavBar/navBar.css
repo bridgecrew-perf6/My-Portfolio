@@ -23,6 +23,13 @@
   text-decoration: none;
   color: white;
 }
+
+.navBarLink:hover {
+  background-image: linear-gradient(60deg, #e21143, #ffb03a);
+  background-clip: text;
+  color: transparent;
+}
+
 @media (max-width: 425px) {
   .navBar {
     height: 50px;
