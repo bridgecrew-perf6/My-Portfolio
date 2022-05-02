@@ -23,3 +23,14 @@
   text-decoration: none;
   color: white;
 }
+@media (max-width: 425px) {
+  .navBar {
+    height: 50px;
+  }
+
+  .navBarLink {
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+  }
+}

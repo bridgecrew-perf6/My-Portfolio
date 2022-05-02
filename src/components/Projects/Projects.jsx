@@ -9,7 +9,7 @@ AOS.init();
 function ProjectsCard({ props }) {
   return (
     <>
-      <div className="card mb-3" data-aos="fade-left" style={{ maxWidth: "540px" }}>
+      <div className="card mb-3" data-aos="fade-down" style={{ maxWidth: "540px" }}>
         <div className="row g-0">
           <div className="col-md-4">
             <img src={props.image} className="img-fluid rounded-start" alt="LOGO" />

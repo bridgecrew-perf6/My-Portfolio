@@ -15,7 +15,11 @@ function Header() {
             Soy un desarrollador web
             <br /> orientado a los detalles, <br /> diseños simples y adaptables
           </p>
-          <button className="descargarBtn">Descargar CV</button>
+          <a href="https://francalderon67.github.io/Personal-CV/" target="_blank" rel="noreferrer">
+            <button className="descargarBtn" type="button">
+              Ir al CV
+            </button>
+          </a>
         </div>
 
         <div>

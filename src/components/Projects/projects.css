@@ -52,3 +52,34 @@
 .linkBtn:active {
   top: 2px;
 }
+
+@media (max-width: 425px) {
+  .projectsSection {
+    height: 2500px;
+  }
+
+  .projectsTitle {
+    font-size: 50px;
+  }
+
+  .card {
+    width: 85%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectsSection {
+    height: 1450px;
+  }
+
+  .projectsTitle {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .projectsSection {
+    height: 1450px;
+  }
+}

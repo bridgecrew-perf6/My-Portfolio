@@ -5,12 +5,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
-function Skils() {
+function Skills() {
   return (
     <>
       <div className="logoBackground" data-aos="fade-up" id="habilidades">
-        <h1 className="skilsTitle">HABILIDADES</h1>
-        <h3 className="skilsText">Estas son las tecnologías con las que he trabajado:</h3>
+        <h1 className="skillsTitle">HABILIDADES</h1>
+        <h3 className="skillsText">Estas son las tecnologías con las que he trabajado:</h3>
         <div className="logoContainer">
           <div>
             <DiHtml5 className="devLogo" />
@@ -54,4 +54,4 @@ function Skils() {
   );
 }
 
-export default Skils;
+export default Skills;

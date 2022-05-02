@@ -1,4 +1,4 @@
-.skilsTitle {
+.skillsTitle {
   font-size: 70px;
   color: white;
   text-align: center;
@@ -6,7 +6,7 @@
 .color {
   background-image: linear-gradient(to left top, #995c0c, #ae550f, #c3491c, #d8372d, #eb1242);
 }
-.skilsText {
+.skillsText {
   margin-top: 1rem;
   color: white;
   text-align: center;
@@ -38,7 +38,8 @@
 
 .nameLogo {
   color: white;
-  margin-left: 7.3rem;
+
+  text-align: center;
   font-size: 20px;
 }
 
@@ -46,4 +47,68 @@
   transform: translate(-10px, -10px);
   box-shadow: 5px 10px 8px rgb(48, 48, 48);
   border-radius: 32px;
+}
+
+@media (max-width: 425px) {
+  .skillsTitle {
+    font-size: 50px;
+  }
+
+  .skillsText {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .logoBackground {
+    height: fit-content;
+  }
+
+  .logoContainer {
+    margin-top: 2rem;
+  }
+
+  .devLogo {
+    height: 75px;
+    width: 75px;
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .nameLogo {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skillsTitle {
+    font-size: 50px;
+  }
+
+  .skillsText {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .logoBackground {
+    height: fit-content;
+  }
+
+  .logoContainer {
+    margin-top: 2rem;
+  }
+
+  .devLogo {
+    height: 75px;
+    width: 75px;
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .nameLogo {
+    font-size: 15px;
+  }
 }

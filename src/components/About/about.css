@@ -45,3 +45,38 @@
 .descargarBtn:active {
   top: 2px;
 }
+
+@media (max-width: 425px) {
+  .aboutTitle {
+    font-size: 50px;
+    color: white;
+  }
+
+  .aboutText {
+    margin-top: 0.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutTitle {
+    font-size: 50px;
+    color: white;
+  }
+
+  .aboutText {
+    margin-top: 0.5rem;
+    margin-left: 15%;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .aboutText {
+    margin-top: 0.5rem;
+    margin-left: 15%;
+    margin-right: 10%;
+  }
+}
