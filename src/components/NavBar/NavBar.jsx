@@ -2,8 +2,8 @@ import React from "react";
 import "./navBar.css";
 function NavBar() {
   return (
-    <ul className="navBar">
-      <div className="navBarFlex">
+    <nav className="navBar">
+      <ul className="navBarFlex">
         <li className="navBarItem">
           <a className="navBarLink" href="#sobremi">
             SOBRE MI
@@ -19,8 +19,8 @@ function NavBar() {
             PROYECTOS
           </a>
         </li>
-      </div>
-    </ul>
+      </ul>
+    </nav>
   );
 }
 

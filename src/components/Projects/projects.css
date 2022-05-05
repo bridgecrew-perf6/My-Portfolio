@@ -1,15 +1,15 @@
 .projectsSection {
-  border-top: thin solid #e96c0c;
+  border-top: 2px solid #e96c0c;
   background-color: rgb(48, 48, 48);
-  height: 900px;
 }
 
 .projectsTitle {
   margin-top: 1rem;
   font-size: 70px;
-  background-image: linear-gradient(60deg, #e21143, #ffb03a);
+  /* background-image: linear-gradient(60deg, #e21143, #ffb03a);
   background-clip: text;
-  color: transparent;
+  color: transparent; */
+  color: orangered;
   text-align: center;
 }
 
@@ -46,7 +46,8 @@
   border-radius: 5px;
   border: none;
   background-size: 120% auto;
-  background-image: linear-gradient(315deg, #c02425 0%, #f0cb35 75%);
+  /* background-image: linear-gradient(315deg, #c02425 0%, #f0cb35 75%); */
+  background-color: orangered;
 }
 .linkBtn:hover {
   background-position: right center;
@@ -57,10 +58,6 @@
 }
 
 @media (max-width: 425px) {
-  .projectsSection {
-    height: 200px;
-  }
-
   .projectsTitle {
     font-size: 50px;
   }
@@ -72,17 +69,7 @@
 }
 
 @media (max-width: 768px) {
-  .projectsSection {
-    height: 1450px;
-  }
-
   .projectsTitle {
     font-size: 50px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .projectsSection {
-    height: 1450px;
   }
 }

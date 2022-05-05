@@ -8,13 +8,15 @@
   z-index: 5;
 }
 
+ul {
+  padding: 0;
+}
 .navBarFlex {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .navBarItem {
-  margin-left: 3rem;
   margin-top: 0.5rem;
 }
 

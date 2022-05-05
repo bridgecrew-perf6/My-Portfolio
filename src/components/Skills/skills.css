@@ -1,9 +1,10 @@
 .skillsTitle {
   margin-top: 1rem;
   font-size: 70px;
-  background-image: linear-gradient(60deg, #e21143, #ffb03a);
+  /* background-image: linear-gradient(60deg, #e21143, #ffb03a);
   background-clip: text;
-  color: transparent;
+  color: transparent; */
+  color: orangered;
   text-align: center;
 }
 
@@ -16,9 +17,8 @@
 }
 
 .logoBackground {
-  border-top: thin solid #e96c0c;
+  border-top: 2px solid #e96c0c;
   background-color: rgb(48, 48, 48);
-  height: 910px;
 }
 
 .logoContainer {
@@ -87,10 +87,6 @@
   .skillsText {
     font-size: 20px;
     margin-bottom: 1rem;
-  }
-
-  .logoBackground {
-    height: fit-content;
   }
 
   .logoContainer {

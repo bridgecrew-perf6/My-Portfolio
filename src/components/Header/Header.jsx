@@ -6,10 +6,7 @@ function Header() {
     <>
       <div className="headerFlex">
         <div>
-          <p className="headerName">
-            Francisco <br />
-            Calderón
-          </p>
+          <p className="headerName">Francisco Calderón</p>
 
           <p className="headerText">
             Soy un desarrollador web
