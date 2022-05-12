@@ -1,20 +1,20 @@
 import React from "react";
 import "./header.css";
+import { useTranslation } from "react-i18next";
 
 function Header() {
+  const [t, i18n] = useTranslation("global");
   return (
     <>
       <div className="headerFlex">
         <div>
-          <p className="headerName">Francisco Calderón</p>
+          <p className="headerName">{t("header.name")}</p>
 
-          <p className="headerText">
-            Soy un desarrollador web
-            <br /> orientado a los detalles, <br /> diseños simples y adaptables
-          </p>
-          <a href="https://francalderon67.github.io/Personal-CV/" target="_blank" rel="noreferrer">
+          <p className="headerText">{t("header.text")}</p>
+
+          <a href={t("header.CvLink")} target="_blank" rel="noreferrer">
             <button className="descargarBtn" type="button">
-              Ir al CV
+              {t("header.button")}
             </button>
           </a>
         </div>

@@ -1,0 +1,58 @@
+{
+  "navBar": {
+    "about": "ABOUT",
+    "skills": "SKILLS",
+    "projects": "PROJECTS"
+  },
+
+  "header": {
+    "name": "Francisco Calderón",
+    "text": " I'm a Web Developer who focuses on the small details, and on simple, accesible and adaptable designs.",
+    "button": "Resume",
+    "CvLink": "https://francalderon67.github.io/English-Resume/"
+  },
+
+  "about": {
+    "title": "ABOUT",
+    "text": "Front End Developer, future FullStack. I really like Front-End but i'm looking foward for Back-End. I've been stuying in Coder House and i finished the first six months of Front End, this involves Web Development, JavaScript and React Js. All this time has prepared me to work as a Front End Developer. I've developed real, complex and simple projects and i'm always thinking in somethin new to develop. I have great interpersonal skills because of my experience working in HR departaments, this experience has been great to acquire and develop soft skills such as, communication, teamwork, flexibility and fast learning."
+  },
+
+  "skills": {
+    "title": "SKILLS",
+    "subTitle": "This are the technologies i've worked with:"
+  },
+
+  "projects": {
+    "title": "PROJECTS"
+  },
+
+  "starWarsPage": {
+    "title": "Star Wars Page",
+    "description": "Coder House Web Development final project. In this project i use HTML, CSS, SASS, GIT, BOOTSTRAP. It's static page where we can find Star Wars history.",
+    "repoBtn": "Repository"
+  },
+
+  "homeBanking": {
+    "title": "Home Banking",
+    "description": "Coder House JavaScript final project. In this project i worked with HTML, CSS, BOOTSTRAP, GIT, GITHUB, JQUERY, JSPDF and VANILLA JAVASCRIPT. This project goal is to simulate some of all the action we can do in a real Home Banking. For you to test it you'll need this: user: fc, pin:1111",
+    "repoBtn": "Repository"
+  },
+
+  "starWarsStore": {
+    "title": "Star Wars Store",
+    "description": "Coder House React JS final project. In this project i worked with HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACT, FIREBASE, GIT and GITHUB. This project goal is to simulate a real E-Commerce Web.",
+    "repoBtn": "Repository"
+  },
+
+  "dibujitosRandom": {
+    "title": "Random Draws",
+    "description": "Real freelance project granted by Coder House as a benefit of being an A student. We were two developers and we worked with HTML, CSS, SASS, GIT and BOOTSTRAP.",
+    "repoBtn": "Repository"
+  },
+
+  "got": {
+    "title": "GOT Characters",
+    "description": "Simple project built with REACT. Here we can see all Games of Thrones characters. In this small project i used HTML, CSS, BOOTSTRAP and AXIOS.",
+    "repoBtn": "Repository"
+  }
+}

@@ -3,14 +3,16 @@ import "./skills.css";
 import { DiBootstrap, DiCss3, DiGithubBadge, DiJsBadge, DiHtml5, DiJqueryLogo, DiReact, DiSass, DiGitBranch } from "react-icons/di";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from "react-i18next";
 AOS.init();
 
 function Skills() {
+  const [t, i18n] = useTranslation("global");
   return (
     <>
       <div className="logoBackground" data-aos="fade-up" id="habilidades">
-        <h1 className="skillsTitle">HABILIDADES</h1>
-        <h3 className="skillsText">Estas son las tecnologías con las que he trabajado:</h3>
+        <h1 className="skillsTitle">{t("skills.title")}</h1>
+        <h3 className="skillsText">{t("skills.subTitle")}</h3>
         <div className="logoContainer">
           <div>
             <DiHtml5 className="devLogo" />

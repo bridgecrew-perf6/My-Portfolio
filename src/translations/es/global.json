@@ -1,0 +1,58 @@
+{
+  "navBar": {
+    "about": "SOBRE MI",
+    "skills": "HABILIDADES",
+    "projects": "PROYECTOS"
+  },
+
+  "header": {
+    "name": "Francisco Calderón",
+    "text": " Soy un desarrollador web orientado a los detalles,  diseños simples y adaptables.",
+    "button": "Ir al CV",
+    "CvLink": "https://francalderon67.github.io/Personal-CV/"
+  },
+
+  "about": {
+    "title": "SOBRE MÍ",
+    "text": "Desarrollador front end, futuro fullstack. Me gusta el front end pero estoy ansioso de conocer el back end. He realizado mis estudios en Coder House y conclui los 6 meses que incumben el desarrollo front end, estudiando desarrollo web, JavaScript y React Js lo que me ha preparado para desempeñarme como desarrollador web. He ideado proyectos reales, simples y complejos y siempre estoy pensando en algo nuevo para desarrollar. Tengo buenas habilidades interpersonales ya que tengo experiencia trabajando en sectores de Recursos Humanos, lo que me ha permitido desarrollar soft skils como comunicación, trabajo en equipo, flexibilidad y aprender rapido."
+  },
+
+  "skills": {
+    "title": "HABILIDADES",
+    "subTitle": "Estas son las tecnologías con las que he trabajado:"
+  },
+
+  "projects": {
+    "title": "PROYECTOS"
+  },
+
+  "starWarsPage": {
+    "title": "Página de Star Wars",
+    "description": "Proyecto final del cursado de Desarrollo Web de Coder House. En este proyecto utilice HTML, CSS, SASS, GIT, BOOTSTRAP. Consiste en una página estática donde podemos encontrar información de la saga de Star Wars.",
+    "repoBtn": "Repositorio"
+  },
+
+  "homeBanking": {
+    "title": "Home Banking",
+    "description": "Proyecto Final del curso de JavaScript de Coder House. En es proyecto trabajamos con HTML, CSS, BOOTSTRAP, GIT, GITHUB, JQUERY, JSPDF y VANILLA JAVASCRIPT. El proyecto consiste en simular las distintas operaciones que podemos realizar en un Home Banking. Para que lo puedas probar necesitas los datos de usuario. Usuario: fc Pin de seguridad: 1111",
+    "repoBtn": "Repositorio"
+  },
+
+  "starWarsStore": {
+    "title": "Tienda de Star Wars",
+    "description": "Proyecto final del curso de React JS de Coder House. En este proyecto trabajamos con HTML, CSS, BOOTSTRAP, JavaScript, React, FIREBASE, GIT, GITHUB. El proyecto consiste en la simulación de una pagina de E-Commerce, en este caso elegí la temática de Star Wars.",
+    "repoBtn": "Repositorio"
+  },
+
+  "dibujitosRandom": {
+    "title": "Dibujitos Random",
+    "description": "Proyecto freelance otorgado por Coder House como beneficio de pertenecer al Top 10 de alumnos. En este proyecto utilizamos HTML, CSS, SASS, GIT y BOOTSTRAP.",
+    "repoBtn": "Repositorio"
+  },
+
+  "got": {
+    "title": "Personajes de GOT",
+    "description": "Proyecto simple realizado con REACT en el que podemos ver los personajes de Games Of Thrones. En este pequeño proyecto utilice HTML, CSS, BOOTSTRAP y AXIOS.",
+    "repoBtn": "Repositorio"
+  }
+}
