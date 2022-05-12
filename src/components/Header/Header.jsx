@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 
 function Header() {
   const [t, i18n] = useTranslation("global");
+  console.log(typeof i18n);
   return (
     <>
       <div className="headerFlex">

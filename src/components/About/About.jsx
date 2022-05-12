@@ -7,6 +7,7 @@ AOS.init();
 
 function About() {
   const [t, i18n] = useTranslation("global");
+  console.log(typeof i18n);
   return (
     <>
       <div className="aboutBackground" data-aos="fade-up" id="sobremi">

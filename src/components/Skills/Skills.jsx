@@ -8,6 +8,7 @@ AOS.init();
 
 function Skills() {
   const [t, i18n] = useTranslation("global");
+  console.log(typeof i18n);
   return (
     <>
       <div className="logoBackground" data-aos="fade-up" id="habilidades">

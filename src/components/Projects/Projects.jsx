@@ -10,6 +10,7 @@ AOS.init();
 
 function ProjectsCard() {
   const [t, i18n] = useTranslation("global");
+  console.log(typeof i18n);
   return (
     <>
       <section className="projectsSection" data-aos="fade-up" id="proyectos">
